@@ -1,10 +1,12 @@
+"use client";
 import AdminPanel from "@/components/admin/AdminPanel";
 import Form from "@/components/admin/Form";
 import { Box } from "@chakra-ui/react";
 import { useState } from "react";
 
-export default function index() {
-  const [isPassword, setIsPassword] = useState(!true);
+// Renamed index to Index to comply with React component naming conventions
+export default function Index() {
+  const [isPassword, setIsPassword] = useState(false);
 
   return (
     <Box fontFamily={"monospace"} w={"100%"}>

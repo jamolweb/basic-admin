@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState } from "react";
 import { FaRegUserCircle } from "react-icons/fa";
 
-export default function adminForm({ handleOpen }) {
+export default function AdminForm({ handleOpen }) {
   const [inputValue, setInputValue] = useState({ name: "", password: "" });
   const [error, setError] = useState("");
   const [loading, setLoading] = useState("");
